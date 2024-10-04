@@ -1,0 +1,12 @@
+### Create Conference
+
+POST http://localhost:8000/conference
+Content-Type: application/json
+Authorization: Basic am9obmRvZUBnbWFpbC5jb206cXdlcnR5
+
+{
+    "title": "Discover Nest.js",
+    "seats": 50,
+    "startDate": "2024-10-25T10:00:00.000Z",
+    "endDate": "2024-10-25T11:00:00.000Z"
+}
